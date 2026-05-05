@@ -4,7 +4,6 @@
   padding: 0;
 }
 
-
 body {
   font-family: 'Outfit', sans-serif;
   background-color: hsl(216, 15%, 48%);
@@ -15,26 +14,19 @@ body {
   min-height: 100vh;
 }
 
+main {
+  background-color: hsl(212, 45%, 89%);
+  max-width: 384px;
+  width: 90%;
+  border-radius: 12px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.code-container img {
+  width: 100%;
+  height: auto;
+  padding: 12px 12px 20px 12px;
+  border-radius: 12px;
+}
 
 
 
