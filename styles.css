@@ -5,6 +5,18 @@
 }
 
 
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: hsl(216, 15%, 48%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+
 
 
 
