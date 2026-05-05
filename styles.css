@@ -19,21 +19,31 @@ main {
   max-width: 384px;
   width: 90%;
   border-radius: 12px;
+  padding: 12px 12px 20px 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.code-container {
+  margin-bottom: 20px;
 }
 
 .code-container img {
   width: 100%;
   height: auto;
-  padding: 12px 12px 20px 12px;
   border-radius: 12px;
 }
 
+.description h1 {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 20px;
 
-
-
-
-
-
+}
 
 .attribution {
   font-size: 0.6875rem;
