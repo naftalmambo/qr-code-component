@@ -6,24 +6,27 @@
 
 body {
   font-family: 'Outfit', sans-serif;
-  background-color: hsl(216, 15%, 48%);
+  background-color: hsl(212, 45%, 89%);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   min-height: 100vh;
+  padding: 20px;
 }
 
 main {
-  background-color: hsl(212, 45%, 89%);
-  max-width: 384px;
+  background-color: hsl(0, 0%, 100%);
+  max-width: 320px;
   width: 90%;
-  border-radius: 12px;
-  padding: 12px 12px 20px 12px;
+  border-radius: 20px;
+  padding: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 20px;
+  box-shadow: 0 25px 25px rgba(0, 0, 0, 0.05);
 }
 
 .code-container {
@@ -33,16 +36,26 @@ main {
 .code-container img {
   width: 100%;
   height: auto;
-  border-radius: 12px;
+  border-radius: 20px;
 }
 
 .description h1 {
   font-family: 'Outfit', sans-serif;
   font-weight: 700;
-  font-size: 28px;
+  font-size: 22px;
   text-align: center;
   margin-bottom: 20px;
+  color: hsl(218, 44%, 22%);
+}
 
+.description p {
+  font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  color: hsl(216, 15%, 48%);
+  padding: 0 20px;
+  margin-bottom: 20px;
 }
 
 .attribution {
@@ -51,4 +64,10 @@ main {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+  color: hsl(216, 15%, 48%);
 }
