@@ -30,8 +30,8 @@ A simple component to practice layout skills using HTML and CSS.
 
 ### Links
 
-- Solution URL: (https://github.com/naftalmambo/qr-code-component)
-- Live Site URL: (https://naftalmambo.github.io/qr-code-component/)
+- Solution URL: [https://github.com/naftalmambo/qr-code-component]
+- Live Site URL: [https://naftalmambo.github.io/qr-code-component/]
 
 ## My process
 
@@ -55,22 +55,19 @@ I practiced centering elements using `min-height: 100vh` and `flexbox` on the bo
 git config --global credential.helper store
 ```
 
-This kind of work is teaching me how to make a page accessible and responsive even without using @media querry.
+This kind of work is teaching me how to make a page accessible and responsive even without using @media queries.
 
 ### Continued development
 
 In future work, I intend to focus on:
 
-
-
 - **Responsiveness:** I believe I've tried my best to make this project be solid in different screen sizes by being flexible with the heights and widths.
 
 ### AI Collaboration
 
-This project used AI on Google Search as a coding collaborator.
+- This project used AI on Google Search as a coding collaborator.
 
-- **Git Authentication:** The AI helped with understanding how to use a **Personal Access Token (PAT)** for secure Git pushes after GitHub retired password authentication.
-
+- **Git Authentication:** The AI helped with understanding how to use a **Personal Access Token (PAT)** for secure Git pushes after encountering Git authentication issues. Thus my workflow got streamlined.
 
 ## Open for Opportunities & Collaboration
 
@@ -84,8 +81,8 @@ If you like what you see or have a project you need help with, connect with:
 **Author**
 
 - Frontend Mentor - [@naftalmambo](https://frontendmentor.io)
-- LinkedIn - [Naftal Mambo](https://linkedin.com)
-- GitHub - [@naftalmambo](https://github.com)
+- LinkedIn - [Naftal Mambo](https://linkedin.com/in/naftalmambo)
+- GitHub - [@naftalmambo](https://github.com/naftalmambo)
 - Discord - [devMambo](https://discordapp.com/users/1157321092482994246)
 
 ## Acknowledgments
