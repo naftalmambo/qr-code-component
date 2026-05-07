@@ -69,6 +69,8 @@ In future work, I intend to focus on:
 
 - **Git Authentication:** The AI helped with understanding how to use a **Personal Access Token (PAT)** for secure Git pushes after encountering Git authentication issues. Thus my workflow got streamlined.
 
+- **Accessibility:** I noticed the style guide's gray color fairly passed WCAG AA contrast standards. I adjusted the color from `hsl(216, 15%, 48%)`(4:55:1) to `hsl(216, 15%, 40%)`(6:09:1) to enhance readability.
+
 ## Open for Opportunities & Collaboration
 
 This project marks the beginning of my journey toward becoming a professional Web Developer and ultimately a Java Full-Stack. I am currently:
