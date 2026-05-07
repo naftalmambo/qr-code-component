@@ -30,8 +30,8 @@ A simple component to practice layout skills using HTML and CSS.
 
 ### Links
 
-- Solution URL: [https://github.com/naftalmambo/qr-code-component]
-- Live Site URL: [https://naftalmambo.github.io/qr-code-component/]
+- [Solution URL:] (https://github.com/naftalmambo/qr-code-component)
+- [Live Site URL:] (https://naftalmambo.github.io/qr-code-component/)
 
 ## My process
 
