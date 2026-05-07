@@ -1,6 +1,7 @@
 # Frontend Mentor - QR code component solution
 
 This is my solution to the [QR code component challenge on Frontend Mentor](https://frontendmentor.io)
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -23,14 +24,14 @@ A simple component to practice layout skills using HTML and CSS.
 
 ### Screenshot
 
-| Desktop Version                                          | Mobile Version                                         |
-| :------------------------------------------------------- | :----------------------------------------------------- |
+| Desktop Version                                   | Mobile Version                                  |
+| :------------------------------------------------ | :---------------------------------------------- |
 | ![Desktop Screenshot](images/desktop-version.png) | ![Mobile Screenshot](images/mobile-version.jpg) |
 
 ### Links
 
-- Solution URL: (https://github.com/naftalmambo/Blog-Preview-Card-Main)
-- Live Site URL: (https://naftalmambo.github.io/Blog-Preview-Card-Main/)
+- Solution URL: (https://github.com/naftalmambo/qr-code-component)
+- Live Site URL: (https://naftalmambo.github.io/qr-code-component/)
 
 ## My process
 
@@ -40,53 +41,36 @@ A simple component to practice layout skills using HTML and CSS.
 - **CSS custom properties**
 - **Flexbox**
 - **Mobile-first workflow**
-- **Google Fonts (Figtree)**
+- **Google Fonts (Outfit)**
 - **VS Code** - My primary editor for writing clean, structured code.
 - **Linux (Ubuntu/WSL)** - My development environment for a professional, stable workflow.
 - **Windows Browser (Chrome)** - Used for cross-browser testing to ensure its responsive.
 
 ### What I learned
 
-This project was a great exercise in high-contrast UI design. I learned how to create a tactile interaction by manipulating box shadows and transforms on the :active state.
+I practiced centering elements using `min-height: 100vh` and `flexbox` on the body. I also learned how to use a **GitHub Personal Access Token (PAT)** to push my code securely from the terminal.
 
-I'm quite happy with this CSS code snippet that makes the card feel tactile, ensured the card fills the shadow completely on click:
-
-```css
-.card {
-  box-shadow: 8px 8px 0px 0px #000000;
-  transition: all 0.3s ease;
-}
-
-.card:active {
-  transform: translate(8px, 8px);
-  box-shadow: 0px 0px 0px 0px #000000;
-}
+```bash
+# How I saved my Git token to avoid re-typing it:
+git config --global credential.helper store
 ```
 
-I also practiced using semantic HTML to improve accessibility, specifically using the `<time>` tag for the publication date:
-
-```html
-<time class="card-date" datetime="2023-12-21">Published 21 Dec 2023</time>
-```
+This kind of work is teaching me how to make a page accessible and responsive even without using @media querry.
 
 ### Continued development
 
 In future work, I intend to focus on:
 
-- **Accesibility:** Ensuring every interactive element has perfect `focus-visible` styles for keyboard users. I've come to realise that even though HTML might seem simple but one must be intentional and considerate with every nesting and elements applied. Hence one should use semantic HTML to improve accessibility.
 
-- **Responsiveness:** I believe I've tried my best to make this project as responsive as possible through use of mobile-first approach, while also open to improvements.
+
+- **Responsiveness:** I believe I've tried my best to make this project be solid in different screen sizes by being flexible with the heights and widths.
 
 ### AI Collaboration
 
-I used a large language model trained by **Google** to refine the CSS architecture and ensure the project followed modern best practices.
+This project used AI on Google Search as a coding collaborator.
 
-- **Tools Used:** Google AI.
-- **Refining Responsiveness:** I consulted the AI to verify if my CSS was strictly **mobile-first** and discussed the most effective placement for media queries.
-- **Code Optimization:** We brainstormed how to combine `width: 90%` and `max-width` to create a **fluid layout** that requires fewer breakpoints.
-- **Accessibility Check:** The assistant suggested semantic HTML tags (like `<time>` and `<main>`) and accessibility utilities like a `.sr-only` class to complement my styling.
+- **Git Authentication:** The AI helped with understanding how to use a **Personal Access Token (PAT)** for secure Git pushes after GitHub retired password authentication.
 
-**What worked well:** The AI was excellent at explaining the **logic** behind mobile-first design, which helped me decide when to keep or remove specific media queries. It also helped ensure my hover and active states (like the card "button press" effect) were implemented smoothly.
 
 ## Open for Opportunities & Collaboration
 
@@ -108,7 +92,7 @@ If you like what you see or have a project you need help with, connect with:
 
 ### 🌟 Appreciation for Frontend Mentor
 
-I want to express my sincere gratitude to **[Frontend Mentor](https://www.frontendmentor.io)** for providing these incredible, real-world challenges that I am sure will enable me to grow to be the dev I aspire.
+I want to express my sincere gratitude to **[Frontend Mentor](https://www.frontendmentor.io)** for providing these incredible, real-world challenges that I am sure will enable me to grow to be the man I aspire to be.
 
 This platform will be more than just a place to practice, it will be a gateway to building skills that truly **change lives**.
 
@@ -117,7 +101,8 @@ By bridging the gap between theory and professional workflows, Frontend Mentor w
 ## Credits
 
 While this is a [Frontend Mentor](https://www.frontendmentor.io) challenge, the structural and styling knowledge used to build it was gained through;
-* **freeCodeCamp**: For the consistent interactive practice that solidified my HTML and CSS fundamentals.
-* **The Odin Project**: For teaching me how to set up my local working environment and to think like a developer.
 
+- **freeCodeCamp**: For the consistent interactive practice that solidified my HTML and CSS fundamentals.
+- **The Odin Project**: For teaching me how to set up my local working environment and to think like a developer.
 
+Thank you...
