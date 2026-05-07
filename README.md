@@ -1,7 +1,6 @@
-# Frontend Mentor - Blog preview card solution
+# Frontend Mentor - QR code component solution
 
-This is a solution to the [Blog preview card challenge on Frontend Mentor]
-
+This is my solution to the [QR code component challenge on Frontend Mentor](https://frontendmentor.io)
 ## Table of contents
 
 - [Overview](#overview)
@@ -20,15 +19,13 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor]
 
 ### The challenge
 
-Users should be able to:
-
-- See hover and focus states for all interactive elements on the page
+A simple component to practice layout skills using HTML and CSS.
 
 ### Screenshot
 
 | Desktop Version                                          | Mobile Version                                         |
 | :------------------------------------------------------- | :----------------------------------------------------- |
-| ![Desktop Screenshot](assets/images/desktop-version.png) | ![Mobile Screenshot](assets/images/mobile-version.jpg) |
+| ![Desktop Screenshot](images/desktop-version.png) | ![Mobile Screenshot](images/mobile-version.jpg) |
 
 ### Links
 
